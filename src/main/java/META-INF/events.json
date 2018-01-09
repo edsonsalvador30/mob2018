@@ -1,0 +1,420 @@
+{
+	"onSystemStarts": {
+		"type": "server",
+		"blockly": {
+			"namespace": "blockly.Bloco",
+			"classNameNew": "Bloco",
+			"classNameOld": "Bloco",
+			"sourcePath": "src/main/java/blockly/Bloco.blockly",
+			"language": "java",
+			"class": "blockly.Bloco",
+			"methods": [
+				{
+					"name": "grupo_acesso",
+					"hasReturn": "true",
+					"params": []
+				},
+				{
+					"name": "Senha",
+					"hasReturn": "true",
+					"params": []
+				},
+				{
+					"name": "logout",
+					"hasReturn": "true",
+					"params": []
+				},
+				{
+					"name": "Autenticar",
+					"hasReturn": "true",
+					"params": []
+				},
+				{
+					"name": "Incio_sist",
+					"hasReturn": "true",
+					"params": []
+				},
+				{
+					"name": "sessao_criada",
+					"hasReturn": "true",
+					"params": []
+				},
+				{
+					"name": "login",
+					"hasReturn": "true",
+					"params": []
+				},
+				{
+					"name": "sessao_destruida",
+					"hasReturn": "true",
+					"params": []
+				}
+			]
+		},
+		"blocklyMethod": "Incio_sist",
+		"blocklyClass": "blockly.Bloco",
+		"blocklyFunctionCall": "cronapi.util.makeCallServerBlocklyAsync('blockly.Bloco:Incio_sist', null, null)"
+	},
+	"onLogout": {
+		"type": "server",
+		"blockly": {
+			"namespace": "blockly.Bloco",
+			"classNameNew": "Bloco",
+			"classNameOld": "Bloco",
+			"sourcePath": "src/main/java/blockly/Bloco.blockly",
+			"language": "java",
+			"class": "blockly.Bloco",
+			"methods": [
+				{
+					"name": "grupo_acesso",
+					"hasReturn": "true",
+					"params": []
+				},
+				{
+					"name": "Senha",
+					"hasReturn": "true",
+					"params": []
+				},
+				{
+					"name": "logout",
+					"hasReturn": "true",
+					"params": []
+				},
+				{
+					"name": "Autenticar",
+					"hasReturn": "true",
+					"params": []
+				},
+				{
+					"name": "Incio_sist",
+					"hasReturn": "true",
+					"params": []
+				},
+				{
+					"name": "sessao_criada",
+					"hasReturn": "true",
+					"params": []
+				},
+				{
+					"name": "login",
+					"hasReturn": "true",
+					"params": []
+				},
+				{
+					"name": "sessao_destruida",
+					"hasReturn": "true",
+					"params": []
+				}
+			]
+		},
+		"blocklyMethod": "logout",
+		"blocklyClass": "blockly.Bloco",
+		"blocklyFunctionCall": "cronapi.util.makeCallServerBlocklyAsync('blockly.Bloco:logout', null, null)"
+	},
+	"onLogin": {
+		"type": "server",
+		"blockly": {
+			"namespace": "blockly.Bloco",
+			"classNameNew": "Bloco",
+			"classNameOld": "Bloco",
+			"sourcePath": "src/main/java/blockly/Bloco.blockly",
+			"language": "java",
+			"class": "blockly.Bloco",
+			"methods": [
+				{
+					"name": "grupo_acesso",
+					"hasReturn": "true",
+					"params": []
+				},
+				{
+					"name": "Senha",
+					"hasReturn": "true",
+					"params": []
+				},
+				{
+					"name": "logout",
+					"hasReturn": "true",
+					"params": []
+				},
+				{
+					"name": "Autenticar",
+					"hasReturn": "true",
+					"params": []
+				},
+				{
+					"name": "Incio_sist",
+					"hasReturn": "true",
+					"params": []
+				},
+				{
+					"name": "sessao_criada",
+					"hasReturn": "true",
+					"params": []
+				},
+				{
+					"name": "login",
+					"hasReturn": "true",
+					"params": []
+				},
+				{
+					"name": "sessao_destruida",
+					"hasReturn": "true",
+					"params": []
+				}
+			]
+		},
+		"blocklyMethod": "login",
+		"blocklyClass": "blockly.Bloco",
+		"blocklyFunctionCall": "cronapi.util.makeCallServerBlocklyAsync('blockly.Bloco:login', null, null)"
+	},
+	"onSessionCreate": {
+		"type": "server",
+		"blockly": {
+			"namespace": "blockly.Bloco",
+			"classNameNew": "Bloco",
+			"classNameOld": "Bloco",
+			"sourcePath": "src/main/java/blockly/Bloco.blockly",
+			"language": "java",
+			"class": "blockly.Bloco",
+			"methods": [
+				{
+					"name": "grupo_acesso",
+					"hasReturn": "true",
+					"params": []
+				},
+				{
+					"name": "Senha",
+					"hasReturn": "true",
+					"params": []
+				},
+				{
+					"name": "logout",
+					"hasReturn": "true",
+					"params": []
+				},
+				{
+					"name": "Autenticar",
+					"hasReturn": "true",
+					"params": []
+				},
+				{
+					"name": "Incio_sist",
+					"hasReturn": "true",
+					"params": []
+				},
+				{
+					"name": "sessao_criada",
+					"hasReturn": "true",
+					"params": []
+				},
+				{
+					"name": "login",
+					"hasReturn": "true",
+					"params": []
+				},
+				{
+					"name": "sessao_destruida",
+					"hasReturn": "true",
+					"params": []
+				}
+			]
+		},
+		"blocklyMethod": "sessao_criada",
+		"blocklyClass": "blockly.Bloco",
+		"blocklyFunctionCall": "cronapi.util.makeCallServerBlocklyAsync('blockly.Bloco:sessao_criada', null, null)"
+	},
+	"onSessionDestroy": {
+		"type": "server",
+		"blockly": {
+			"namespace": "blockly.Bloco",
+			"classNameNew": "Bloco",
+			"classNameOld": "Bloco",
+			"sourcePath": "src/main/java/blockly/Bloco.blockly",
+			"language": "java",
+			"class": "blockly.Bloco",
+			"methods": [
+				{
+					"name": "grupo_acesso",
+					"hasReturn": "true",
+					"params": []
+				},
+				{
+					"name": "Senha",
+					"hasReturn": "true",
+					"params": []
+				},
+				{
+					"name": "logout",
+					"hasReturn": "true",
+					"params": []
+				},
+				{
+					"name": "Autenticar",
+					"hasReturn": "true",
+					"params": []
+				},
+				{
+					"name": "Incio_sist",
+					"hasReturn": "true",
+					"params": []
+				},
+				{
+					"name": "sessao_criada",
+					"hasReturn": "true",
+					"params": []
+				},
+				{
+					"name": "login",
+					"hasReturn": "true",
+					"params": []
+				},
+				{
+					"name": "sessao_destruida",
+					"hasReturn": "true",
+					"params": []
+				}
+			]
+		},
+		"blocklyMethod": "sessao_destruida",
+		"blocklyClass": "blockly.Bloco",
+		"blocklyFunctionCall": "cronapi.util.makeCallServerBlocklyAsync('blockly.Bloco:sessao_destruida', null, null)"
+	},
+	"afterPageRender": null,
+	"afterLoginRender": null,
+	"afterHomeRender": null,
+	"onAuthenticate": {
+		"type": "server",
+		"blockly": {
+			"namespace": "blockly.Bloco",
+			"classNameNew": "Bloco",
+			"classNameOld": "Bloco",
+			"sourcePath": "src/main/java/blockly/Bloco.blockly",
+			"language": "java",
+			"class": "blockly.Bloco",
+			"methods": [
+				{
+					"name": "grupo_acesso",
+					"hasReturn": "true",
+					"params": []
+				},
+				{
+					"name": "Senha",
+					"hasReturn": "true",
+					"params": []
+				},
+				{
+					"name": "logout",
+					"hasReturn": "true",
+					"params": []
+				},
+				{
+					"name": "Autenticar",
+					"hasReturn": "true",
+					"params": []
+				},
+				{
+					"name": "Incio_sist",
+					"hasReturn": "true",
+					"params": []
+				},
+				{
+					"name": "sessao_criada",
+					"hasReturn": "true",
+					"params": []
+				},
+				{
+					"name": "login",
+					"hasReturn": "true",
+					"params": []
+				},
+				{
+					"name": "sessao_destruida",
+					"hasReturn": "true",
+					"params": []
+				}
+			]
+		},
+		"blocklyMethod": "Autenticar",
+		"blocklyClass": "blockly.Bloco",
+		"blocklyFunctionCall": "cronapi.util.makeCallServerBlocklyAsync('blockly.Bloco:Autenticar', null, null)"
+	},
+	"onGetRoles": {
+		"type": "server",
+		"blockly": {
+			"namespace": "blockly.Bloco",
+			"classNameNew": "Bloco",
+			"classNameOld": "Bloco",
+			"sourcePath": "src/main/java/blockly/Bloco.blockly",
+			"language": "java",
+			"class": "blockly.Bloco",
+			"methods": [
+				{
+					"name": "grupo_acesso",
+					"hasReturn": "true",
+					"params": []
+				},
+				{
+					"name": "Senha",
+					"hasReturn": "true",
+					"params": []
+				},
+				{
+					"name": "logout",
+					"hasReturn": "true",
+					"params": []
+				},
+				{
+					"name": "Autenticar",
+					"hasReturn": "true",
+					"params": []
+				},
+				{
+					"name": "Incio_sist",
+					"hasReturn": "true",
+					"params": []
+				},
+				{
+					"name": "sessao_criada",
+					"hasReturn": "true",
+					"params": []
+				},
+				{
+					"name": "login",
+					"hasReturn": "true",
+					"params": []
+				},
+				{
+					"name": "sessao_destruida",
+					"hasReturn": "true",
+					"params": []
+				}
+			]
+		},
+		"blocklyMethod": "grupo_acesso",
+		"blocklyClass": "blockly.Bloco",
+		"blocklyFunctionCall": "cronapi.util.makeCallServerBlocklyAsync('blockly.Bloco:grupo_acesso', null, null)"
+	},
+	"onGetMultitenantId": null,
+	"onChangePassword": {
+		"type": "server",
+		"blockly": {
+			"namespace": "blockly.Bloco",
+			"classNameNew": "Bloco",
+			"classNameOld": "Bloco",
+			"sourcePath": "src/main/java/blockly/Bloco.blockly",
+			"language": "java",
+			"class": "blockly.Bloco",
+			"methods": [
+				{
+					"name": "Executar",
+					"hasReturn": "true",
+					"params": []
+				}
+			]
+		},
+		"blocklyMethod": "Executar",
+		"blocklyClass": "blockly.Bloco",
+		"blocklyFunctionCall": "cronapi.util.makeCallServerBlocklyAsync('blockly.Bloco:Executar', null, null)"
+	},
+	"onChangeTheme": null
+}

@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?><blockly formTarget="" resourceType="JAVA" ruleDescription="Bloco" ruleName="Bloco" ruleSynchronous="false" ruleTimeout="" ruleType="I">
+  <metadata scale="1" scrollx="388.99999999999994" scrolly="-19.49999999999997" target="gQGZ1l?te]yDGePQ=w*Y"/>
+  <block colour="#995ba5" id="gQGZ1l?te]yDGePQ=w*Y" origintype="procedures_defreturn" output="false" tooltip="Cria uma função que possui um valor de retorno." type="procedures_defreturn" x="-277" y="98">
+    <field name="NAME">grupo_acesso</field>
+    <comment h="80" pinned="false" w="160">Bloco</comment>
+    <value name="RETURN">
+      <block colour="#5ba593" dependencyby="gQGZ1l?te]yDGePQ=w*Y" id="a0YlpC_@dyx@%7$N3d_z" origintype="text" output="true" tooltip="function () { [native code] }" type="text">
+        <field name="TEXT">Administrators</field>
+      </block>
+    </value>
+  </block>
+  <block colour="#995ba5" id="Anb:u5+^,0vLkL9QIqn5" origintype="procedures_defreturn" output="false" tooltip="Cria uma função que possui um valor de retorno." type="procedures_defreturn" x="-350" y="130">
+    <field name="NAME">Senha</field>
+    <comment h="80" pinned="false" w="160">Bloco</comment>
+    <statement name="STACK">
+      <block colour="#5ba58c" dependencyby="Anb:u5+^,0vLkL9QIqn5" id="v0deolzM]6U)P2iRuA_Q" origintype="text_print" output="false" tooltip="Imprime o texto, número ou valor especificado." type="text_print">
+        <value name="TEXT">
+          <shadow colour="#5ba593" id="Sg,)mF,H+7SluNCt_9oR" origintype="text" output="true" tooltip="function () { [native code] }" type="text">
+            <field name="TEXT">senha foi alterada
+</field>
+          </shadow>
+        </value>
+      </block>
+    </statement>
+  </block>
+  <block colour="#995ba5" id="i:6#-!em*0+.dL*|g$yr" origintype="procedures_defreturn" output="false" tooltip="Cria uma função que possui um valor de retorno." type="procedures_defreturn" x="-257" y="138">
+    <field name="NAME">logout</field>
+    <comment h="80" pinned="false" w="160">Bloco</comment>
+    <statement name="STACK">
+      <block colour="#5ba58c" dependencyby="i:6#-!em*0+.dL*|g$yr" id="B(+0^}~}(]W7#fN5t+*2" origintype="text_print" output="false" tooltip="Imprime o texto, número ou valor especificado." type="text_print">
+        <value name="TEXT">
+          <shadow colour="#5ba593" id="{BE@kh17vvrm-H8+y45#" origintype="text" output="true" tooltip="function () { [native code] }" type="text">
+            <field name="TEXT">saindo da aplicacao</field>
+          </shadow>
+        </value>
+      </block>
+    </statement>
+  </block>
+  <block colour="#995ba5" id="0#x74,laW5I.zuXAX@,5" origintype="procedures_defreturn" output="false" tooltip="Cria uma função que possui um valor de retorno." type="procedures_defreturn" x="-330" y="170">
+    <field name="NAME">Autenticar</field>
+    <comment h="80" pinned="false" w="160">Bloco</comment>
+    <value name="RETURN">
+      <block colour="#5b80a5" dependencyby="0#x74,laW5I.zuXAX@,5" id="fT^ZPEq!rIq[/Cnlv{R/" origintype="logic_boolean" output="true" tooltip="Retorna verdadeiro ou falso." type="logic_boolean">
+        <field name="BOOL">TRUE</field>
+      </block>
+    </value>
+  </block>
+  <block colour="#995ba5" id="6Lc)R*J0d7(;!{,C{P~Z" origintype="procedures_defreturn" output="false" tooltip="Cria uma função que possui um valor de retorno." type="procedures_defreturn" x="-237" y="178">
+    <field name="NAME">Incio_sist</field>
+    <comment h="80" pinned="false" w="160">Bloco</comment>
+    <statement name="STACK">
+      <block colour="#5ba58c" dependencyby="6Lc)R*J0d7(;!{,C{P~Z" id="BGKaLfRtJcZFNPAjy(WJ" origintype="text_print" output="false" tooltip="Imprime o texto, número ou valor especificado." type="text_print">
+        <value name="TEXT">
+          <shadow colour="#5ba593" dependencyby="6Lc)R*J0d7(;!{,C{P~Z" id="#rTA_.FPlq#~_med`+af" origintype="text" output="true" tooltip="function () { [native code] }" type="text">
+            <field name="TEXT">Sistema foi iniciado</field>
+          </shadow>
+        </value>
+      </block>
+    </statement>
+  </block>
+  <block colour="#995ba5" id="H`|gR#E$b0JdrqM!Gq3Q" origintype="procedures_defreturn" output="false" tooltip="Cria uma função que possui um valor de retorno." type="procedures_defreturn" x="-310" y="210">
+    <field name="NAME">sessao_criada</field>
+    <comment h="80" pinned="false" w="160">Bloco</comment>
+    <statement name="STACK">
+      <block colour="#5ba58c" dependencyby="H`|gR#E$b0JdrqM!Gq3Q" id="?Cl:a0SD/hXirLx!LT/2" origintype="text_print" output="false" tooltip="Imprime o texto, número ou valor especificado." type="text_print">
+        <value name="TEXT">
+          <shadow colour="#5ba593" id="=GTZA@To*Uq%G`[!Y3-%" origintype="text" output="true" tooltip="function () { [native code] }" type="text">
+            <field name="TEXT">Sessao foi criada</field>
+          </shadow>
+        </value>
+      </block>
+    </statement>
+  </block>
+  <block colour="#995ba5" id="J+!uaZN*+Q|Mu[_qdN~y" origintype="procedures_defreturn" output="false" tooltip="Cria uma função que possui um valor de retorno." type="procedures_defreturn" x="-217" y="218">
+    <field name="NAME">login</field>
+    <comment h="80" pinned="false" w="160">Bloco</comment>
+    <statement name="STACK">
+      <block colour="#5ba58c" dependencyby="J+!uaZN*+Q|Mu[_qdN~y" id="6kCD[^XzpNKGr?!JX[}q" origintype="text_print" output="false" tooltip="Imprime o texto, número ou valor especificado." type="text_print">
+        <value name="TEXT">
+          <shadow colour="#5ba593" dependencyby="J+!uaZN*+Q|Mu[_qdN~y" id="en3oCSk3CfH.n%@mT^{*" origintype="text" output="true" tooltip="function () { [native code] }" type="text">
+            <field name="TEXT">Autenticado com sucesso</field>
+          </shadow>
+        </value>
+      </block>
+    </statement>
+  </block>
+  <block colour="#995ba5" id="G1}~Rr[:SyM$6~EMmlE]" origintype="procedures_defreturn" output="false" tooltip="Cria uma função que possui um valor de retorno." type="procedures_defreturn" x="-290" y="250">
+    <field name="NAME">sessao_destruida</field>
+    <comment h="80" pinned="false" w="160">Bloco</comment>
+    <statement name="STACK">
+      <block colour="#5ba58c" dependencyby="G1}~Rr[:SyM$6~EMmlE]" id="e+:O4Z9MVO3/-rp?%$2r" origintype="text_print" output="false" tooltip="Imprime o texto, número ou valor especificado." type="text_print">
+        <value name="TEXT">
+          <shadow colour="#5ba593" dependencyby="G1}~Rr[:SyM$6~EMmlE]" id="!u0Z9AHF5uN?Z#5lo=fr" origintype="text" output="true" tooltip="function () { [native code] }" type="text">
+            <field name="TEXT">Sessao foi finalizada</field>
+          </shadow>
+        </value>
+      </block>
+    </statement>
+  </block>
+</blockly>
