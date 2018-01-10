@@ -18,6 +18,9 @@ public class Bloco {
 	public static Var Autenticar() throws Exception {
 		return new Callable<Var>() {
 
+			private Var item = Var.VAR_NULL;
+			private Var x = Var.VAR_NULL;
+
 			public Var call() throws Exception {
 				return Var.VAR_TRUE;
 			}
@@ -61,6 +64,9 @@ public class Bloco {
 	// Bloco
 	public static Var grupo_acesso() throws Exception {
 		return new Callable<Var>() {
+
+			private Var item = Var.VAR_NULL;
+			private Var x = Var.VAR_NULL;
 
 			public Var call() throws Exception {
 				return Var.valueOf("Administrators");
@@ -123,6 +129,26 @@ public class Bloco {
 
 			public Var call() throws Exception {
 				System.out.println(Var.valueOf("Sessao foi finalizada").getObjectAsString());
+				return Var.VAR_NULL;
+			}
+		}.call();
+	}
+
+	/**
+	 *
+	 * @param x
+	 * @return Var
+	 */
+	// Descreva esta função...
+	public static Var servidor(Var x) throws Exception {
+		return new Callable<Var>() {
+
+			private Var item = Var.VAR_NULL;
+
+			public Var call() throws Exception {
+				item = cronapi.screen.Operations.getValueOfField(Var.valueOf("vars.input1131Campo1"));
+				cronapi.util.Operations.callClientFunction(Var.valueOf("cronapi.screen.changeValueOfField"),
+						Var.valueOf("vars.input3002Campo2"), cronapi.math.Operations.sum(item, x));
 				return Var.VAR_NULL;
 			}
 		}.call();

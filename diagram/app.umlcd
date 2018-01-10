@@ -15,18 +15,18 @@
       "runtimeClass": "cronos.widgets.joint.uml.Paper",
       "z": 1,
       "dataSource": "jdbc/main",
-      "namespace": "app",
+      "namespace": "app84",
       "apiPath": "src/main/webapp/raml/app/api.raml",
       "restPath": "/api/rest",
       "visionLikePackage": false,
       "chkApi": false,
-      "attrs": {},
       "restSecurity": {
         "get": "authenticated",
         "post": "authenticated",
         "put": "authenticated",
         "delete": "authenticated"
-      }
+      },
+      "attrs": {}
     },
     {
       "type": "uml.Class",
@@ -548,6 +548,9 @@
           "fill": "#0066FF",
           "font-size": 11,
           "text": ""
+        },
+        ".": {
+          "display": "normal"
         }
       }
     }
@@ -560,6 +563,14 @@
       "cells": [
         "d2e50f97-0b9e-4037-94ba-af64568af247",
         "1df87f56-c5ba-47f5-8e68-82931f49b989"
+      ]
+    },
+    {
+      "name": "Teste",
+      "id": "9cf121b8-60b7-4077-ba10-f78882e00b23",
+      "cells": [
+        "d2e50f97-0b9e-4037-94ba-af64568af247",
+        "23e9fec7-f736-441b-a318-e844c18a7a7a"
       ]
     },
     {

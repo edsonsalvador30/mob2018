@@ -124,8 +124,13 @@ body {
 .col-xs-4 {
     width: 33.33333333%;
 }
-.col-xs-3 {
-    width: 25%;
+
+.col-xs-3 { 
+  width: 25%;
+  background-color: rgb(255, 255, 255);
+  color: rgb(255, 255, 255);
+  left: 107px;
+  position: relative;
 }
 .col-xs-2 {
     width: 16.66666667%;
